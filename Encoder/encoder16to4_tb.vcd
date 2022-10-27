@@ -1,0 +1,70 @@
+$date
+	Fri Jul 15 07:05:23 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module encoder16to4_tb $end
+$var wire 1 ! valid $end
+$var wire 4 " encoder_out [3:0] $end
+$var reg 16 # encoder_in [15:0] $end
+$scope module iencoder16to4 $end
+$var wire 16 $ encoder_in [15:0] $end
+$var reg 4 % encoder_out [3:0] $end
+$var reg 1 ! valid $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+b0 $
+b0 #
+b0 "
+0!
+$end
+#10
+1!
+b1 #
+b1 $
+#20
+b1 "
+b1 %
+b10 #
+b10 $
+#30
+b10 "
+b10 %
+b100 #
+b100 $
+#40
+b11 "
+b11 %
+b1000 #
+b1000 $
+#50
+b100 "
+b100 %
+b10000 #
+b10000 $
+#60
+b1111 "
+b1111 %
+b1000000000000000 #
+b1000000000000000 $
+#70
+b0 "
+b0 %
+0!
+b1000010001000000 #
+b1000010001000000 $
+#80
+b1000010001000100 #
+b1000010001000100 $
+#90
+b1000010011000100 #
+b1000010011000100 $
+#100

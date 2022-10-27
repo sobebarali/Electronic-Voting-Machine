@@ -1,0 +1,46 @@
+$date
+	Fri Jul 15 06:44:27 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module adder_tb $end
+$var wire 10 ! adder_out [9:0] $end
+$var reg 10 " adder_in [9:0] $end
+$scope module iadder $end
+$var wire 10 # adder_in [9:0] $end
+$var reg 10 $ adder_out [9:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#20
+b10 !
+b10 $
+b1 "
+b1 #
+#40
+b11 !
+b11 $
+b10 "
+b10 #
+#50
+b100 !
+b100 $
+b11 "
+b11 #
+#60
+b110 !
+b110 $
+b101 "
+b101 #
+#70
